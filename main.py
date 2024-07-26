@@ -10,7 +10,7 @@ def get_data_from_response(location_dict):
     temp = weather_dict['main']['temp']
     city = weather_dict['name']
 
-    return f"In {city}, temp is {temp} and forecast is {forecast}"
+    return f"In {city}, it is {int(temp)}°F and {forecast}!"
 
 def start_program():
     user_input_zip = input("What is the Zip Code?: ")

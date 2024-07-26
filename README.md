@@ -7,3 +7,5 @@ This app uses OpenWeather API. Request to this API uses a User API Key to authen
 This app will ask user to input the ZipCode of the city and will return City Name, Current Temperature, and Current Forecast.
 
 Advanced features like 5-day weather and options to select Celsius, Fahrenheit are coming soon!
+
+Some more info on the API: https://openweathermap.org/api/one-call-3
